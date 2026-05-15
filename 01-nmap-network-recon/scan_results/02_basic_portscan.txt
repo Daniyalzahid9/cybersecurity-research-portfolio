@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Fri May 15 10:21:48 2026 as: nmap -oN /home/daniyal/cybersecurity-research-portfolio/01-nmap-network-recon/scan_results/02_basic_portscan.txt 192.168.100.1
+Nmap scan report for 192.168.100.1
+Host is up (0.041s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+22/tcp filtered ssh
+23/tcp open     telnet
+53/tcp open     domain
+80/tcp open     http
+MAC Address: 78:58:60:A4:40:30 (Huawei Technologies)
+
+# Nmap done at Fri May 15 10:21:49 2026 -- 1 IP address (1 host up) scanned in 1.71 seconds

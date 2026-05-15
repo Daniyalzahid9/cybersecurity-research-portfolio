@@ -1,0 +1,29 @@
+# Nmap 7.95 scan initiated Fri May 15 10:24:53 2026 as: nmap -A -oN /home/daniyal/cybersecurity-research-portfolio/01-nmap-network-recon/scan_results/04_aggressive_scan.txt 192.168.100.1
+Nmap scan report for 192.168.100.1
+Host is up (0.0097s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT   STATE    SERVICE  VERSION
+21/tcp filtered ftp
+22/tcp filtered ssh
+23/tcp open     telnet   Huawei Home Gateway telnetd
+53/tcp open     domain?
+80/tcp open     ssl/http
+|_ssl-date: TLS randomness does not represent time
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=Huawei Technologies Co., Ltd/organizationName=Huawei Technologies Co., Ltd/stateOrProvinceName=Guangdong/countryName=CN
+| Not valid before: 2014-12-05T10:33:44
+|_Not valid after:  2024-12-04T10:33:44
+MAC Address: 78:58:60:A4:40:30 (Huawei Technologies)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3.5
+OS details: Linux 3.5
+Network Distance: 1 hop
+Service Info: Device: broadband router
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   9.73 ms 192.168.100.1
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 15 10:27:40 2026 -- 1 IP address (1 host up) scanned in 166.88 seconds

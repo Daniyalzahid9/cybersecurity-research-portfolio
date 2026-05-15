@@ -1,0 +1,52 @@
+# Nmap 7.95 scan initiated Fri May 15 10:27:52 2026 as: nmap -p 22,80,443,21,23,3306,8080 -oN /home/daniyal/cybersecurity-research-portfolio/01-nmap-network-recon/scan_results/05_targeted_ports.txt 192.168.100.0/24
+Nmap scan report for 192.168.100.1
+Host is up (0.019s latency).
+
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   open     telnet
+80/tcp   open     http
+443/tcp  closed   https
+3306/tcp closed   mysql
+8080/tcp closed   http-proxy
+MAC Address: 78:58:60:A4:40:30 (Huawei Technologies)
+
+Nmap scan report for 192.168.100.3
+Host is up (0.15s latency).
+
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+80/tcp   closed http
+443/tcp  closed https
+3306/tcp closed mysql
+8080/tcp closed http-proxy
+MAC Address: 36:1F:7D:24:7C:63 (Unknown)
+
+Nmap scan report for 192.168.100.60
+Host is up (0.00011s latency).
+
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+80/tcp   closed http
+443/tcp  closed https
+3306/tcp closed mysql
+8080/tcp closed http-proxy
+
+Nmap scan report for 192.168.100.63
+Host is up (0.000090s latency).
+
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+80/tcp   closed http
+443/tcp  closed https
+3306/tcp closed mysql
+8080/tcp closed http-proxy
+
+# Nmap done at Fri May 15 10:28:02 2026 -- 256 IP addresses (4 hosts up) scanned in 10.04 seconds

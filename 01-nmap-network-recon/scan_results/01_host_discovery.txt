@@ -1,0 +1,7 @@
+# Nmap 7.95 scan initiated Fri May 15 10:21:23 2026 as: nmap -sn -oN /home/daniyal/cybersecurity-research-portfolio/01-nmap-network-recon/scan_results/01_host_discovery.txt 192.168.100.0/24
+Nmap scan report for 192.168.100.1
+Host is up (0.0085s latency).
+MAC Address: 78:58:60:A4:40:30 (Huawei Technologies)
+Nmap scan report for 192.168.100.60
+Host is up.
+# Nmap done at Fri May 15 10:21:25 2026 -- 256 IP addresses (2 hosts up) scanned in 2.00 seconds
